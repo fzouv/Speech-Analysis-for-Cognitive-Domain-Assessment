@@ -9,7 +9,9 @@ SLP Dissertation Project 2024, code for replicability
 5. preprocess_audio.py was used for some necessary downsampling etc. to use some tools like the vad and the feature extractor
 6. basic_classifier.py is my basic logistic regression model used to predict MCI or HC based on speech features (Exp. 1). Also includes a baseline model for comparison.
 7. predict_total_scores is the Random Forest regressor predicting the total moca scores of participants based on speech features (Exp.2). It also includes a baseline model for comparison.
-8. 
+8. scores_by_task are the Random Forest regressors that predict the moca scores for each task based on speech features, with fine-tuning based on top 20 features (Exp.3)
+9. cross_validation is the script to perform 5-fold cross-validation for Exp. 3
+10. correlations computes the Pearson's correlation coefficients between speech features and scores in moca tasks
 
 
 
